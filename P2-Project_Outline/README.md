@@ -1,18 +1,1 @@
-# Project Outline
-For this assignment, you will submit a high-level outline of your project. This can, and likely will, change over time. In particular, your mentor will provide direction and feedback to help sharpen your ideas. So don't worry if you feel unsure about some aspects of the outline or if you have to change some things later.
-
-## Assignment Description
-[Project Outline Assignment](https://education.launchcode.org/liftoff/modules/assignments/project-outline)
-
-## Submission Instructions
-
-### Overview
-Include overview here
-### Features
-Include Features here
-### Technologies
-Include Technologies here
-### What I'll Have to Learn
-Include what you will need to learn here
-### Project Tracker
-Link to your Trello board here
+# Project OutlineFor this assignment, you will submit a high-level outline of your project. This can, and likely will, change over time. In particular, your mentor will provide direction and feedback to help sharpen your ideas. So don't worry if you feel unsure about some aspects of the outline or if you have to change some things later.## Assignment Description[Project Outline Assignment](https://education.launchcode.org/liftoff/modules/assignments/project-outline)## Submission Instructions### OverviewMy application will replace an existing tracking system in use by Spectrum'sBilling Operations Shared Services MDU team. This application will move from tracking task data (TASK ID, CREATE DATE, DUE DATE, CATEGORY 3, PROPERTY NAME, UNITS EFFECTED, EST. HOUR WORKED, COMPLETION DATE, STATUS, PRIORITY LEVEL, SUMMARY/COMMENTS, DETAILED NOTES, LAST REVIEW DATE, FOLLOW-UP DATE, TICKET HOURS, COUNT OF 5HR TICKETS) on an outdated and sometimes cumbersome excel spreadsheet: to tracking all details on a unified web application that will allow for more accurate and timely data collection. There will be 2 dashboard views (Standard & Manager):     Managers will have advanced access allowing them to identify and resolve     escalated concerns.        Standard users will be able to edit and update ### Features~ User Login:     Users will be able to log in to the application to view a dashboard that includes all of the user's assigned task request.    Managers will be able to login to a dashboard showing all available task~ Search:     Mangers will be able to search all task request by given text or date criteria.     Standard users will be able to search all task currently assigned to them by given text or date  criteria.~ Sort: All Users will be able to sort dashboard by field name. ~ Update:     Standard users will be able to add/update pre-defined fields to communicate task details to managers or other task viewers. within the task request.     Managers will have the ability to update task priority in order to escalate individual task request~ Get Task: User will get new task assignments randomly by pressing a Get Task button. ~ Managers will be able to add/delete 'category 3' options~ Managers will be able to update the priority status of individual task request~ Priority task request will be assigned out before any other task request### TechnologiesJavaSpring BootMySQLThymeleaf templatesHibernate### What I'll Have to LearnUser Authentication: I will need to learn to setup user authentication sessions so that each user when logged in receives a personal view of their assigned task### Project Trackerhttps://trello.com/invite/b/zwJLUFtC/9a0d7ccf1934d41d388406cdc7e7150d/liftoff-capstone-project
